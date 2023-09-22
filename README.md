@@ -4,16 +4,15 @@ The [LLVM](https://llvm.org) linker, binaries for Homebrew consumption.
 Would be better to build from source, but that requires `llvm-config`.
 PRs are very welcome.
 
-Source Code: https://releases.llvm.org/8.0.0/lld-8.0.0.src.tar.xz
-
 The included binaries are prebuilt LLVM.org provides binaries, 
 as available in those larger tarballs (including all of CLang/LLVM for Darwin):
--
-  https://releases.llvm.org/8.0.0/clang+llvm-8.0.0-x86_64-apple-darwin.tar.xz 
+
+  - https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/clang+llvm-11.0.0-x86_64-apple-darwin.tar.xz (SHA256: b93886ab0025cbbdbb08b46e5e403a462b0ce034811c929e96ed66c2b07fe63a)
+  - https://releases.llvm.org/8.0.0/clang+llvm-8.0.0-x86_64-apple-darwin.tar.xz 
   (SHA256: 94ebeb70f17b6384e052c47fef24a6d70d3d949ab27b6c83d4ab7b298278ad6f)
-- https://releases.llvm.org/6.0.0/clang+llvm-6.0.0-x86_64-apple-darwin.tar.xz
+  - https://releases.llvm.org/6.0.0/clang+llvm-6.0.0-x86_64-apple-darwin.tar.xz
   (SHA256: 0ef8e99e9c9b262a53ab8f2821e2391d041615dd3f3ff36fdf5370916b0f4268)
-- [LLVM Download page](https://releases.llvm.org/download.html#8.0.0)
+  - [LLVM Download page](https://releases.llvm.org/download.html#8.0.0)
 
 ## LLD License
 
